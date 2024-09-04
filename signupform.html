@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form file</title>
+</head>
+
+<body>
+
+     <div>
+        <form>
+
+            <h1>Student Details Form</h1>
+            <label>Name:</label>
+            <input type="text" placeholder="enter your name" required><br></br>
+            <label>Date of Birth:</label>
+            <input type="date"required><br></br>
+            <label>Age:</label>
+            <input type="number" placeholder="enter your age" required><br></br>
+            <label>College Name:</label><br>
+            <input type="text" placeholder="enter your college name" required><br></br>
+            <label>Phone Number:</label><br>
+            <input type="number" placeholder="enter your phone number" required><br></br>
+            <fieldset style="width:90px">
+                <legend>Gender</legend>
+                <input type="radio" id="male" value="male" name="gender">
+                <label>Male</label><br>
+                <input type="radio" id="Female" value="Female" name="gender">
+                <label>Female</label><br>
+                <input type="radio" id="other" value="other" name="gender">
+                <label>other</label><br>
+            </fieldset><br></br>
+            <fieldset style="width:90px">
+                <legend>Skills</legend>
+                <input type="checkbox" name="skills" id="HTML" value="HTML">
+                <label>HTML</label><br>
+                <input type="checkbox" name="skills" id="JAVA" value="JAVA">
+                <label>JAVA</label><br>
+                <input type="checkbox" name="skills" id="SQL" value="SQL">
+                <label>SQL</label><BR>
+                <input type="checkbox" name="skills" id="CSS" value="CSS">
+                <label>CSS</label>
+            </fieldset><br></br>
+            <!-- Dropdown -->
+            <label>select:</label>
+            <select>
+                <option value="Not Applicable ">
+                    Not Applicable
+                </option>
+                <option value="student">
+                    student
+                </option>
+                <option value="employee">
+                    employee
+                </option>
+            </select><br></br>
+            <!-- Resume upload -->
+             <label>Resume:</label>
+             <input type="file" 
+             accept=".pdf,.doc,.docx"
+             id="resume"
+             name="resume" required><br></br>
+             <label>Gmail:</label>
+             <input type="text" placeholder="enter your mail address" required><br></br>
+             <label>Password:</label>
+             <input type="password" required><br></br>
+             <button>
+                submit
+             </button>
+
+
+    </div>
+
+
+
+    </form>
+    </div>
+
+
+</body>
+
+</html>
